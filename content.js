@@ -43,6 +43,7 @@ const scrapListPage = async () => {
                         } else if (text.includes("voted")) {
                             const match = text.match(/^(\d+)/);
                             if (match) {
+                                /////
                                 votes = match[1];
                             }
                         }
